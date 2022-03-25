@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Sticky header on scroll
    */
-  const selectHeader = document.querySelector('#header');
+  const selectHeader = document.querySelector('#navprin1');
   if (selectHeader) {
     document.addEventListener('scroll', () => {
-      window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
+      window.scrollY > 100 ? selectHeader.classList.add('navbaronscroll') : selectHeader.classList.remove('navbaronscroll');
     });
   }
 
