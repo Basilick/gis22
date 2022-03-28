@@ -66,6 +66,44 @@ a:hover {
 }
 
 
+.whitetxt {
+  color: #ffffff;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 50px;
+  font-family: Mabry-Bold;
+}
+
+.subtitle {
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.btnprime {
+  display: block;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #2BADD4;
+  border: 1px solid #2BADD4;
+  width: 163px;
+  background: #FFFFFF;
+  text-align: center;
+  padding: 6px;
+  font-family: Mabry-Regular;
+}
+
+.btnprime:hover {
+ text-decoration: none;
+ background: #000;
+ color: #FFFFFF;
+ font-family: Mabry-Regular;
+ border: 1px solid #000;
+}
+
+
 
 
 /*--------------------------------------------------------------
@@ -208,7 +246,7 @@ a:hover {
   box-shadow: inset 0 11px 20px -20px rgba(0,0,0,0.5) !important;
   width: 100vw;
   height: 300px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.9);
   padding: 0 !important;
   
 }
@@ -362,7 +400,7 @@ a:hover {
 
 .overlay {
   position: fixed;
-  background: #FF5252;
+  background: #FFFFFF;
   top: 0;
   left: 0;
   width: 100%;
@@ -628,6 +666,7 @@ section {
   }
 }
 
+<<<<<<< HEAD
 h1, .h1{font-size: 3.75rem;}
 h5, .h5{font-size: 1.5rem;}
 
@@ -876,9 +915,96 @@ ul.tabs li .active img{
    transform: scale(1.1);
 }
 }
+=======
+>>>>>>> 75cfc482d3b55c22bac02a3bb6339b8eb15addc8
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
+
+#homesec1 #carouselExampleDark .carousel-item {
+
+  height: 560px;
+
+
+}
+
+#homesec1 #carouselExampleDark #bgcarru1 {
+  background-image: url(../img/home/bgslide1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+}
+
+#homesec1 #carouselExampleDark #bgcarru2 {
+  background-image: url(../img/home/bgslide2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+}
+
+#homesec1 #carouselExampleDark #bgcarru3 {
+  background-image: url(../img/home/bgslide3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+}
+
+#homesec1 #carouselExampleDark .carousel-item h1 {
+  margin-top: 10%;
+
+}
+
+#homesec1 #carouselExampleDark .carousel-item p {
+width: 600px;
+
+}
+
+#homesec1 #carouselExampleDark .carousel-item a {
+  margin-top: 40px;
+
+}
+
+#homesec1 #carouselExampleDark .carousel-indicators {
+  position: absolute;
+  left: 97%; 
+  top: 30%;
+  /* bottom: 0; */
+  /* left: 0; */
+  z-index: 2;
+  display: block;
+
+  padding: 0;
+  margin-right: 30px;
+  margin-bottom: 0;
+  margin-left: 0;
+  
+ 
+}
+
+
+#homesec1 #carouselExampleDark .carousel-indicators ul {
+  list-style: none;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0;
+  
+}
+#homesec1 #carouselExampleDark .carousel-indicators ul li {
+  margin-top: 20px;
+  
+}
+
+#homesec1 #carouselExampleDark .carousel-indicators .btnindi{
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  
+}
+
 
 /*--------------------------------------------------------------
 # Footer
