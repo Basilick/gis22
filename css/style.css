@@ -103,7 +103,9 @@ h1 {
  border: 1px solid #000;
 }
 
-
+.z100 {
+  z-index: 100;
+}
 
 
 /*--------------------------------------------------------------
@@ -411,7 +413,7 @@ h1 {
   overflow: hidden;
 }
 .overlay.open {
-  opacity: 0.9;
+  opacity: 1;
   visibility: visible;
   height: 100%;
 }
@@ -1004,6 +1006,55 @@ width: 600px;
   height: 15px;
   
 }
+#tabmenucont { 
+
+  padding: 100px 50px 0;
+  background-color: #FAFAFA;
+  height: 100vh;
+
+}
+
+
+
+#tabmenucont #v-pills-tab { 
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+#tabmenucont #v-pills-tab a { 
+  display: block;
+  background: none;
+  width: fit-content;
+  margin-top: 20px;
+  color: #24ABD3;
+  border-radius: 0;
+  padding: 0;
+  transition: none;
+  text-transform: uppercase;
+}
+
+#tabmenucont #v-pills-tab a:hover { 
+  display: block;
+  background: none;
+  width: fit-content;
+  background: none;
+  color: #434343;
+  border-radius: 0;
+  padding: 0;
+  transition: none;
+
+}
+
+#tabmenucont #v-pills-tab a.active { 
+  text-decoration: underline;
+  background: none;
+  color: #434343;
+
+}
+
+
 
 
 /*--------------------------------------------------------------
