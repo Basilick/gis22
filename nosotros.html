@@ -108,16 +108,16 @@
       </div>
     </section>
 
-    <section>
+    <section class="section__sectores">
       <div class="container">
         <div class="padding__40">
           <h2 class="text__title">SECTORES Y MARCAS</h2>
           <div class="row">
             <div class="col-md-4">
-              <div class="box__sectores padding__30">
+              <a class="box__sectores padding__30" id="btnautopartes">
                 <img src="img/about/autopartes.jpg" alt="Gis autopartes">
                 <h4>AUTOPARTES</h4>
-              </div>
+              </a>
             </div>
             <div class="col-md-4">
               <div class="box__sectores padding__30">
@@ -131,7 +131,12 @@
                 <h4>Construcción</h4>
               </div>
             </div>
+            <div id="contAutopartes" class="contenidoSectores" style="display: none;">
+              Prueba
+            <button class="btn" id="btnautopartes">Cerrar</button>
           </div>
+          </div>
+          
         </div>
       </div>
     </section>
@@ -559,18 +564,24 @@
     }
 })
 
+$(document).ready(function(){
+
+    $("#btnautopartes").click(function() {
+        $("#contAutopartes").toggle(500);
+    });
+});
 
 $(document).ready(function(){
 
     $("#equipo").click(function() {
-        $("#directivo").toggle(500);// Mostrar y ocultar el tiempo de cambio de acción es de 500 ms
+        $("#directivo").toggle(500);
     });
 });
 
 $(document).ready(function(){
 
     $("#filosofia").click(function() {
-        $("#valores").toggle(500);// Mostrar y ocultar el tiempo de cambio de acción es de 500 ms
+        $("#valores").toggle(500);
     });
 });
 

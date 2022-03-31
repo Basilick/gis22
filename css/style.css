@@ -1025,7 +1025,7 @@ h5, .h5{font-size: 1.5rem;}
 .btn__fixed:hover{background: #24ABD3;color: #fff;font-family: Mabry-Regular;}
 .logo__svg{display: block;text-align: center;}
 
-
+.color__white{color: #ffffff !important;}
 .bg__primary{background: #1F89A8; color: #fff;}
 .bg__secundary{background: #24ABD3; color: #fff;}
 .bg__extra{background: #066986; color: #fff;}
@@ -1258,10 +1258,6 @@ ul.tabs li .active img{
 }
 
 }
-
-
-
-
 
 /*--------------------------------------------------------------
 # Footer

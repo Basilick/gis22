@@ -66,6 +66,44 @@ a:hover {
 }
 
 
+.whitetxt {
+  color: #ffffff;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 50px;
+  font-family: Mabry-Bold;
+}
+
+.subtitle {
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.btnprime {
+  display: block;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #2BADD4;
+  border: 1px solid #2BADD4;
+  width: 163px;
+  background: #FFFFFF;
+  text-align: center;
+  padding: 6px;
+  font-family: Mabry-Regular;
+}
+
+.btnprime:hover {
+ text-decoration: none;
+ background: #000;
+ color: #FFFFFF;
+ font-family: Mabry-Regular;
+ border: 1px solid #000;
+}
+
+
 
 
 /*--------------------------------------------------------------
@@ -203,7 +241,7 @@ a:hover {
   box-shadow: inset 0 11px 20px -20px rgba(0,0,0,0.5) !important;
   width: 100vw;
   height: 300px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.9);
   padding: 0 !important;
   
 }
@@ -360,7 +398,7 @@ a:hover {
 
 .overlay {
   position: fixed;
-  background: #FF5252;
+  background: #FFFFFF;
   top: 0;
   left: 0;
   width: 100%;
@@ -649,7 +687,7 @@ h5, .h5{font-size: 1.5rem;}
 .btn__fixed:hover{background: #24ABD3;color: #fff;font-family: Mabry-Regular;}
 .logo__svg{display: block;text-align: center;}
 
-
+.color__white{color: #ffffff !important;}
 .bg__primary{background: #1F89A8; color: #fff;}
 .bg__secundary{background: #24ABD3; color: #fff;}
 .bg__extra{background: #066986; color: #fff;}
@@ -876,9 +914,140 @@ ul.tabs li .active img{
    transform: scale(1.1);
 }
 }
+=======
+>>>>>>> 75cfc482d3b55c22bac02a3bb6339b8eb15addc8
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
+
+#homesec1 #carouselExampleDark .carousel-item {
+
+  height: 560px;
+
+
+}
+
+#homesec1 #carouselExampleDark #bgcarru1 {
+  background-image: url(../img/home/bgslide1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+}
+
+#homesec1 #carouselExampleDark #bgcarru2 {
+  background-image: url(../img/home/bgslide2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+}
+
+#homesec1 #carouselExampleDark #bgcarru3 {
+  background-image: url(../img/home/bgslide3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+}
+
+#homesec1 #carouselExampleDark .carousel-item h1 {
+  margin-top: 10%;
+
+}
+
+#homesec1 #carouselExampleDark .carousel-item p {
+width: 600px;
+
+}
+
+#homesec1 #carouselExampleDark .carousel-item a {
+  margin-top: 40px;
+
+}
+
+#homesec1 #carouselExampleDark .carousel-indicators {
+  position: absolute;
+  left: 97%; 
+  top: 30%;
+  /* bottom: 0; */
+  /* left: 0; */
+  z-index: 2;
+  display: block;
+
+  padding: 0;
+  margin-right: 30px;
+  margin-bottom: 0;
+  margin-left: 0;
+  
+ 
+}
+
+
+#homesec1 #carouselExampleDark .carousel-indicators ul {
+  list-style: none;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0;
+  
+}
+#homesec1 #carouselExampleDark .carousel-indicators ul li {
+  margin-top: 20px;
+  
+}
+
+#homesec1 #carouselExampleDark .carousel-indicators .btnindi{
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  
+}
+.section__sectores{position: relative;}
+.contenidoSectores{
+  position: absolute;
+  background: #cecdcd;
+  padding: 40px;
+  top: 100px;
+  width: 1240px;
+  height: 400px;
+}
+#razon__invertir{
+  background: url('../img/inversionistas/bg-inversioniastas.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+}
+.box__white{background: #fff;padding: 30px;border-radius: 20px;margin: 30px}
+.box__white p{margin-bottom: 0;}
+#bg__reportes{
+  background-image: url('../img/inversionistas/bg-reportes.jpg');
+  background-size: cover;
+  background-position: center;
+}
+ul.list__years{
+  background: #fff;
+  list-style: none;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+ul.list__years li a{font-size: 1.875rem;color: #969696;padding: 5px 0;display: block;}
+.box__reporte{padding: 40px;min-height: 320px;}
+.box__reporte h3{font-size: 1.375rem;color: #4AD6FF;}
+ul.list__reporte {list-style: none;margin-left: 20px;}
+ul.list__reporte li{display: block;padding: 5px 0;}
+ul.list__reporte li a{color: #fff;font-size: 1.25rem;}
+ul.list__reporte li:before { content: ' ';background-image: url('../img/inversionistas/descarga.svg');width: 14px;height: 17px;display: block;position: absolute;margin-left: -30px; }
+.border__righ{border-right: 1px solid #fff;}
+.border__bottom{border-bottom: 1px solid #ffffff;}
+.comunicados__eventos{padding: 2rem 0;border-bottom: 1px solid #C6C6C6;}
+.comunicados__eventos:hover{background: rgba(0, 0, 0, .2);color: #4AD6FF;}
+.comunicados__eventos h4{font-size: 1.25rem;color: #fff;}
+.date__events{font-size: 0.875rem;color: #7E7E7E}
+.img__link{padding: 2rem 0;}
 
 /*--------------------------------------------------------------
 # Footer
