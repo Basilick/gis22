@@ -1259,6 +1259,57 @@ ul.tabs li .active img{
 
 }
 
+
+.section__sectores{position: relative;}
+.contenidoSectores{
+  position: absolute;
+  background: #cecdcd;
+  padding: 40px;
+  top: 100px;
+  width: 1240px;
+  height: 400px;
+}
+#razon__invertir{
+  background: url('../img/inversionistas/bg-inversioniastas.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+}
+.box__white{background: #fff;padding: 30px;border-radius: 20px;margin: 30px}
+.box__white p{margin-bottom: 0;}
+#bg__reportes{
+  background-image: url('../img/inversionistas/bg-reportes.jpg');
+  background-size: cover;
+  background-position: center;
+}
+ul.list__years{
+  background: #fff;
+  list-style: none;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+ul.list__years li a{font-size: 1.875rem;color: #969696;padding: 5px 0;display: block;}
+.box__reporte{padding: 40px;min-height: 320px;}
+.box__reporte h3{font-size: 1.375rem;color: #4AD6FF;}
+ul.list__reporte {list-style: none;margin-left: 20px;}
+ul.list__reporte li{display: block;padding: 5px 0;}
+ul.list__reporte li a{color: #fff;font-size: 1.25rem;}
+ul.list__reporte li:before { content: ' ';background-image: url('../img/inversionistas/descarga.svg');width: 14px;height: 17px;display: block;position: absolute;margin-left: -30px; }
+.border__righ{border-right: 1px solid #fff;}
+.border__bottom{border-bottom: 1px solid #ffffff;}
+.comunicados__eventos{padding: 2rem 0;border-bottom: 1px solid #C6C6C6;}
+.comunicados__eventos:hover{background: rgba(0, 0, 0, .2);color: #4AD6FF;}
+.comunicados__eventos h4{font-size: 1.25rem;color: #fff;}
+.date__events{font-size: 0.875rem;color: #7E7E7E}
+.img__link{padding: 2rem 0;}
+
+#tabmenucont { 
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
