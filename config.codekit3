@@ -883,6 +883,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/inversionistas\/bg-analistas.jpg" : {
+      "ft" : 16384,
+      "iS" : 671395,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/inversionistas\/bg-analistas.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/inversionistas\/bg-contact.jpg" : {
+      "ft" : 16384,
+      "iS" : 697566,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/inversionistas\/bg-contact.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/inversionistas\/bg-gobierno.jpg" : {
+      "ft" : 16384,
+      "iS" : 638783,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/inversionistas\/bg-gobierno.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/inversionistas\/bg-inversioniastas.jpg" : {
       "ft" : 16384,
       "iS" : 609067,
@@ -919,6 +958,39 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/inversionistas\/corporativo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/inversionistas\/corporativo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/inversionistas\/descarga-02.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/inversionistas\/descarga-02.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/inversionistas\/descarga-btn.png" : {
+      "ft" : 32768,
+      "iS" : 288,
+      "oA" : 0,
+      "oAP" : "\/img\/inversionistas\/descarga-btn.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/inversionistas\/descarga.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -929,11 +1001,51 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/inversionistas\/exito.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/inversionistas\/exito.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/inversionistas\/lideres.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/inversionistas\/lideres.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/inversionistas\/link-comunicado.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/inversionistas\/link-comunicado.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/inversionistas\/link.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/inversionistas\/link.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/inversionistas\/social.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/inversionistas\/social.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

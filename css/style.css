@@ -51,18 +51,12 @@ p {
 
 
 a {
-
   color: #2BADD4;
-  font-family: Mabry-Bold;
 }
 
 a:hover {
-
   color: #19191a;
-  font-family: Mabry-Bold;
   text-decoration: underline;
-
-
 }
 
 
@@ -81,7 +75,8 @@ h1 {
   font-size: 25px;
   line-height: 29px;
 }
-
+.btn{padding: 0.375rem 1.5rem;}
+.btn-light{color: #1F89A8;border-color: #707070}
 .btnprime {
   display: block;
   text-transform: uppercase;
@@ -668,8 +663,10 @@ section {
   }
 }
 
-h1, .h1{font-size: 3.75rem;}
-h5, .h5{font-size: 1.5rem;}
+h1{font-size: 3.75rem;}
+h2{font-size: 2.375rem;font-weight: bold;}
+h5{font-size: 1.5rem;}
+h4{font-size: 1.25rem;}
 
 /* NOSOTROS */
 .btn__fixed{
@@ -687,9 +684,21 @@ h5, .h5{font-size: 1.5rem;}
   background: #fff;
 }
 .btn__fixed:hover{background: #24ABD3;color: #fff;font-family: Mabry-Regular;}
+.btn__descarga{padding-left: 30px;position: relative;}
+.btn__descarga:before{
+  content: ' ';
+  background-image: url('../img/inversionistas/descarga-02.svg');
+  width: 12px;
+  height: 14px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
 .logo__svg{display: block;text-align: center;}
 
 .color__white{color: #ffffff !important;}
+.color__secundary{color: #24ABD3 !important;}
+.bg__light{background: #F8F8F8;}
 .bg__primary{background: #1F89A8; color: #fff;}
 .bg__secundary{background: #24ABD3; color: #fff;}
 .bg__extra{background: #066986; color: #fff;}
@@ -700,11 +709,20 @@ h5, .h5{font-size: 1.5rem;}
 .padding__small{padding-top: 25px;padding-bottom: 25px;}
 .padding__base{padding-top: 50px;padding-bottom: 50px;}
 .padding__large{padding-top: 120px;padding-bottom: 120px;}
+.margin__bottom{margin-bottom: 30px;}
 
 .text__large{font-size: 1.375rem;line-height: 1;}
+.font__20{font-size: 1.25rem;}
 .text__center{text-align: center;}
+.float__right{float: right;}
 .text__right{text-align: right !important;}
+.text__left{text-align: left;}
 .text__title{text-transform: uppercase;color: #24ABD3;font-size: 2.875rem;font-weight: bold;margin-bottom: 1.5rem;}
+.box__shadow{
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+}
 
 .img__about{position: absolute;}
 .box__card{z-index: 3;position: relative;}
@@ -722,9 +740,6 @@ h5, .h5{font-size: 1.5rem;}
   margin-bottom: 15px;
   display: block;
   margin-top: 15px;
-  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
--webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
--moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
 }
 .box__sectores h4{
   font-weight: bold;
@@ -916,8 +931,6 @@ ul.tabs li .active img{
    transform: scale(1.1);
 }
 }
-=======
->>>>>>> 75cfc482d3b55c22bac02a3bb6339b8eb15addc8
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
@@ -1005,7 +1018,6 @@ width: 600px;
   height: 15px;
   
 }
-<<<<<<< HEAD
 .section__sectores{position: relative;}
 .contenidoSectores{
   position: absolute;
@@ -1021,7 +1033,8 @@ width: 600px;
   background-size: contain;
   background-position: center top;
 }
-.box__white{background: #fff;padding: 30px;border-radius: 20px;margin: 30px}
+.box__white{background: #fff;}
+.box__dark{background-color: #282E2F;}
 .box__white p{margin-bottom: 0;}
 #bg__reportes{
   background-image: url('../img/inversionistas/bg-reportes.jpg');
@@ -1046,12 +1059,12 @@ ul.list__reporte li a{color: #fff;font-size: 1.25rem;}
 ul.list__reporte li:before { content: ' ';background-image: url('../img/inversionistas/descarga.svg');width: 14px;height: 17px;display: block;position: absolute;margin-left: -30px; }
 .border__righ{border-right: 1px solid #fff;}
 .border__bottom{border-bottom: 1px solid #ffffff;}
+.border__radius{border-radius: 24px;}
 .comunicados__eventos{padding: 2rem 0;border-bottom: 1px solid #C6C6C6;}
 .comunicados__eventos:hover{background: rgba(0, 0, 0, .2);color: #4AD6FF;}
 .comunicados__eventos h4{font-size: 1.25rem;color: #fff;}
 .date__events{font-size: 0.875rem;color: #7E7E7E}
 .img__link{padding: 2rem 0;}
-=======
 #tabmenucont { 
 
   padding: 100px 50px 0;
@@ -1100,9 +1113,74 @@ ul.list__reporte li:before { content: ' ';background-image: url('../img/inversio
 
 }
 
+.table__dividendos {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table__dividendos th{width: 25%;}
+.table__dividendos td{border-right: 1px solid #fff;}
+.border__transparent{border-color: transparent;}
+.table__dividendos td, .table__dividendos th {color: #fff;}
+td, th{padding: 20px;text-align: center;}
+
+.table__fundamentales{
+  width: 100%;
+  background: #fff;
+  font-size: 1.375rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.bg__uafirda{background: #F8F8F8;}
+.table__fundamentales tr th{background: #E4F5FA;border-bottom: 1px solid #DFDFDF;}
+.table__fundamentales th,
+.table__fundamentales td{border-right: 1px solid #DFDFDF;}
+#bg__gobierno{
+  background-image: url('../img/inversionistas/bg-gobierno.jpg');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+ul.list__gobierno{
+  list-style: none;
+  list-style-image: url('../img/inversionistas/link.svg');
+  margin-left: 40px;
+  margin-top: 30px;
+}
+ul.list__gobierno li a{
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #686868;
+  display: block;
+}
+#bg__analistas{
+  background-image: url('../img/inversionistas/bg-analistas.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.table__prospectos{background: #fff;width: 100%;}
+.table__prospectos tr:nth-child(even) {background-color: #F3F7F9;}
+.table__prospectos a{color: #676767;}
+.table__prospectos a:hover{color: #24ABD3;}
+.border__left{border-left: 1px solid #707070;}
+#bg__contact{
+  background-image: url('../img/inversionistas/bg-contact.jpg');
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.form{margin-top: 30px;display: inline-block;}
+.input__form{
+  width: 100%;
+  padding: .5rem 1rem;
+  margin-bottom: 20px;
+}
+ul.list__contact{margin-top: 400px;list-style: none;}
+ul.list__contact li a{display: block;padding: 10px;color: #282E2F;}
 
 
->>>>>>> 2559a351909d14fa171ecb251f30a0ba38fba8d5
 
 /*--------------------------------------------------------------
 # Footer
