@@ -56,9 +56,7 @@ a {
 
 a:hover {
   color: #19191a;
-  text-decoration: underline;
 }
-
 
 .whitetxt {
   color: #ffffff;
@@ -999,15 +997,12 @@ padding: 0 15px 15px 15px;
   }
 }
 
-<<<<<<< HEAD
 h1{font-size: 3.75rem;}
 h2{font-size: 2.375rem;font-weight: bold;}
 h5{font-size: 1.5rem;}
 h4{font-size: 1.25rem;}
-=======
 h1, .h1{font-size: 45px;}
 h5, .h5{font-size: 1.5rem;}
->>>>>>> 0615e0888b662e1b0422a9b8c64dd2520bbb2e13
 
 /* NOSOTROS */
 .btn__fixed{
@@ -1036,6 +1031,7 @@ h5, .h5{font-size: 1.5rem;}
   top: 2px;
 }
 .logo__svg{display: block;text-align: center;}
+.logo__svg img{opacity: .6;}
 
 .color__white{color: #ffffff !important;}
 .color__secundary{color: #24ABD3 !important;}
@@ -1064,6 +1060,7 @@ h5, .h5{font-size: 1.5rem;}
   -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
 }
+.box__line{border: 1px solid #fff;}
 
 .img__about{position: absolute;}
 .box__card{z-index: 3;position: relative;}
@@ -1082,14 +1079,17 @@ h5, .h5{font-size: 1.5rem;}
   display: block;
   margin-top: 15px;
 }
+.box__sectores img{max-width: 100%;}
+.box__sectores:hover{opacity: .6;}
 .box__sectores h4{
   font-weight: bold;
+  color: #5C5C5C;
   text-transform: uppercase;
     border-bottom: 8px solid #24ABD3;
     padding-bottom: 10px;
     max-width: 230px;
 }
-
+.box__sectores h4:hover{text-decoration: none;}
 .item__history{
   position: relative;
   border-bottom: 3px solid #24ABD3;
@@ -1276,7 +1276,6 @@ ul.tabs li .active img{
     -webkit-transform: scale(1.1);
    transform: scale(1.1);
 }
-<<<<<<< HEAD
 }
 /*--------------------------------------------------------------
 # Index Page
@@ -1310,21 +1309,15 @@ ul.tabs li .active img{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
-=======
->>>>>>> 0615e0888b662e1b0422a9b8c64dd2520bbb2e13
-
 }
 
 
-<<<<<<< HEAD
 #homesec1 #carouselExampleDark .carousel-indicators .btnindi{
   border-radius: 100%;
   width: 15px;
   height: 15px;
   
 }
-=======
->>>>>>> 0615e0888b662e1b0422a9b8c64dd2520bbb2e13
 .section__sectores{position: relative;}
 .contenidoSectores{
   position: absolute;
@@ -1335,7 +1328,7 @@ ul.tabs li .active img{
   height: 400px;
 }
 #razon__invertir{
-  background: url('../img/inversionistas/bg-inversioniastas.jpg');
+  background: url('../img/inversionistas/bg-inversionistas.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center top;
@@ -1372,7 +1365,6 @@ ul.list__reporte li:before { content: ' ';background-image: url('../img/inversio
 .comunicados__eventos h4{font-size: 1.25rem;color: #fff;}
 .date__events{font-size: 0.875rem;color: #7E7E7E}
 .img__link{padding: 2rem 0;}
-<<<<<<< HEAD
 #tabmenucont { 
 
   padding: 100px 50px 0;
@@ -1418,11 +1410,19 @@ ul.list__reporte li:before { content: ' ';background-image: url('../img/inversio
   text-decoration: underline;
   background: none;
   color: #434343;
-=======
->>>>>>> 0615e0888b662e1b0422a9b8c64dd2520bbb2e13
-
+}
 #tabmenucont { 
 }
+#header__inversionistas{
+  background: url('../img/inversionistas/bg-inversion.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.date__inversion{font-size: 2.25rem;}
+.box__header__inversionistas{padding-top: 8rem;}
+.title__head{font-size: 60px;}
 
 .table__dividendos {
   font-family: arial, sans-serif;
@@ -1491,14 +1491,28 @@ ul.list__gobierno li a{
 ul.list__contact{margin-top: 400px;list-style: none;}
 ul.list__contact li a{display: block;padding: 10px;color: #282E2F;}
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 0615e0888b662e1b0422a9b8c64dd2520bbb2e13
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+#footer{background: #282E2F;color: #fff;}
+ul.nav__footer{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  text-align: right;
+}
+ul.nav__footer li a{
+  color: #fff;
+  padding: .5rem 1.2rem;
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.btn__footer{background: #24ABD3;}
 .footer {
   color: var(--color-white);
   font-size: 14px;
@@ -1529,12 +1543,10 @@ ul.list__contact li a{display: block;padding: 10px;color: #282E2F;}
   color: var(--color-white);
 }
 .footer .footer-content h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--color-white);
   position: relative;
-  padding-bottom: 12px;
-  margin-bottom: 15px;
 }
 .footer .footer-content h4::after {
   content: "";
@@ -1546,6 +1558,16 @@ ul.list__contact li a{display: block;padding: 10px;color: #282E2F;}
   bottom: 0;
   left: 0;
 }
+ul.footer__legal{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 12px;
+}
+ul.footer__legal li{padding: 0 .6rem;}
+ul.footer__legal li a{color:#ffffff;}
+.social__links a{color: #fff;padding: .5rem;font-size: 1.3rem;}
 .footer .footer-content .footer-links {
   margin-bottom: 30px;
 }
@@ -1573,9 +1595,11 @@ ul.list__contact li a{display: block;padding: 10px;color: #282E2F;}
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-weight: bold;
+    font-size: 16px;
 }
 .footer .footer-content .footer-links ul a:hover {
-  color: var(--color-white);
+  color: #24ABD3;
 }
 .footer .footer-content .footer-newsletter form {
   margin-top: 30px;
@@ -1610,8 +1634,8 @@ ul.list__contact li a{display: block;padding: 10px;color: #282E2F;}
   background: rgba(var(--color-primary-rgb), 0.85);
 }
 .footer .footer-legal {
-  padding: 30px 0;
-  background: var(--color-secondary-dark);
+  padding: 13px 0;
+  background: #000;
 }
 .footer .footer-legal .credits {
   padding-top: 4px;
@@ -1639,10 +1663,53 @@ ul.list__contact li a{display: block;padding: 10px;color: #282E2F;}
   background: var(--color-primary);
   text-decoration: none;
 }
+.section__flotante{position: relative;}
+.section__flotante p{color: #626262;}
+.logo__flotante{margin-top: 60px;margin-bottom: 30px;}
+.box__flotante{
+  position: absolute;
+  max-width: 100%;
+  background: #fff;
+  height: auto;
+}
+#close{position: absolute;right: 30px;}
+.title__flotante{width: 230px;border-bottom: 8px solid #24ABD3;font-size: 1.438rem;margin-bottom: 40px;font-weight: bold;}
+
+
+
+@media (max-width: 768px){
+  main{margin-top: 60px;}
+  .img__about{position: relative;width: 100%;}
+  .logo__svg svg, .logo__svg img{width: 100%;}
+  .title__acordion, .text__title{font-size: 2rem;}
+  .box__reporte, .padding__30{padding: 15px;}
+  .box__sectores h4{font-size: 1rem;}
+  .mapa__global {width: 100%;}
+  .margin__top{margin-top: -50px;}
+  .mapMexico{top: 12rem;left: 7rem;}
+  .mapEuropa{top: 8rem;left: 22rem;}
+  .map3{top: 12rem;left: 36rem;}
+  .box__header__inversionistas{padding-top: 0;}
+  ul.list__years{display: flex;width: 100%;}
+  ul.list__years li a{padding: 10px;font-size: 1.2rem;}
+  .comunicados__eventos{padding: 1rem 0;}
+  ul.list__contact{margin-top: 230px;}
+
+}
 
 @media (max-width: 500px){
   .img__about{position: relative;width: 100%;}
   #head__nosotros .padding__large{padding: 0;}
-  .text__title{font-size: 2rem;}
+  .title__head,  .text__title{font-size: 2rem;}
   .padding__40{padding: 10px;}
+  ul.nav__footer{display: block;text-align: center;margin-top: 30px;}
+  .social__links{text-align: center;}
+  #footer svg{text-align: center;margin: auto;display: block;}
+  ul.footer__legal{display: block;}
+  ul.footer__legal li{padding: .5rem;}
+  ul.list__contact{margin-top: 100px;}
+  .padding__80{padding: 20px;}
+  .date__inversion, .title__acordion{font-size: 1.2rem;}
+  .box__reporte{min-height: 100%;}
+  ul.list__gobierno{margin-left: 0;}
 }
