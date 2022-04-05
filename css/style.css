@@ -172,8 +172,8 @@ h1 {
 
 #navprin1 .logo img {
   display: block;
-  width: 135px;
-  max-height: 40px;
+  width: 100%;
+  max-width: 135px;
   margin-right: 6px;
 }
 
@@ -206,7 +206,8 @@ h1 {
   border-left: 1px solid #2BADD4;
   padding-left: 20px;
  }
-
+.dropdown-toggle{font-size: 13px;}
+#contmenu2 a{font-size: 13px;}
 
 #contmenu2 .btncontac {
   margin-right: 25px;
@@ -688,7 +689,7 @@ section {
 }
 
 #homesec1 #carouselExampleDark .carousel-item h1 {
-  margin-top: 10%;
+  margin-top: 20%;
 
 }
 
@@ -1350,6 +1351,7 @@ ul.list__years{
     width: 80%;
     margin: auto;
 }
+ul.list__years .active{color: #4AD6FF;}
 ul.list__years li a{font-size: 1.875rem;color: #969696;padding: 5px 0;display: block;}
 .box__reporte{padding: 40px;min-height: 320px;}
 .box__reporte h3{font-size: 1.375rem;color: #4AD6FF;}
@@ -1471,6 +1473,7 @@ ul.list__gobierno li a{
   background-position: center;
   background-repeat: no-repeat;
 }
+#bg__analistas img{max-width: 100%;}
 .table__prospectos{background: #fff;width: 100%;}
 .table__prospectos tr:nth-child(even) {background-color: #F3F7F9;}
 .table__prospectos a{color: #676767;}
@@ -1671,18 +1674,30 @@ ul.footer__legal li a{color:#ffffff;}
   max-width: 100%;
   background: #fff;
   height: auto;
+  z-index: 300;
 }
 #close{position: absolute;right: 30px;}
 .title__flotante{width: 230px;border-bottom: 8px solid #24ABD3;font-size: 1.438rem;margin-bottom: 40px;font-weight: bold;}
+#main{margin-top: 60px;}
 
 
-
+@media (min-width: 1200px){
+  .dropdown-toggle{font-size: 16px;}
+  #contmenu2 a{font-size: 16px;}
+  #homesec1 #carouselExampleDark .carousel-item h1{margin-top: 20%;}
+}
+@media (max-width: 908px){
+  .box__header__inversionistas{padding-top: 0;}
+  .text__title{font-size: 2rem;}
+  ul.list__years li a{font-size: 1rem;padding: 15px 0;}
+  .box__reporte{padding: 10px;}
+  ul.list__contact{margin-top: 250px;}
+}
 @media (max-width: 768px){
-  main{margin-top: 60px;}
+  .padding__large{padding-top: 60px;padding-bottom: 60px;}
   .img__about{position: relative;width: 100%;}
   .logo__svg svg, .logo__svg img{width: 100%;}
   .title__acordion, .text__title{font-size: 2rem;}
-  .box__reporte, .padding__30{padding: 15px;}
   .box__sectores h4{font-size: 1rem;}
   .mapa__global {width: 100%;}
   .margin__top{margin-top: -50px;}
@@ -1690,16 +1705,21 @@ ul.footer__legal li a{color:#ffffff;}
   .mapEuropa{top: 8rem;left: 22rem;}
   .map3{top: 12rem;left: 36rem;}
   .box__header__inversionistas{padding-top: 0;}
-  ul.list__years{display: flex;width: 100%;}
+  ul.list__years{padding: 20px 6px;}
   ul.list__years li a{padding: 10px;font-size: 1.2rem;}
   .comunicados__eventos{padding: 1rem 0;}
   ul.list__contact{margin-top: 230px;}
+  #homesec1 #carouselExampleDark .carousel-indicators{left: 90%;top: 70%;}
+  #homesec1 #carouselExampleDark .carousel-item p{width: 100%;}
+  #contmenu2 .btnchanlan{margin-right: 15px;}
+  #contmenu2 .btnchanlan:nth-child(2){padding-left: 10px;margin-right: 10px;}
 
 }
 
 @media (max-width: 500px){
   .img__about{position: relative;width: 100%;}
   #head__nosotros .padding__large{padding: 0;}
+  .codigoEtica h3,
   .title__head,  .text__title{font-size: 2rem;}
   .padding__40{padding: 10px;}
   ul.nav__footer{display: block;text-align: center;margin-top: 30px;}
@@ -1710,6 +1730,64 @@ ul.footer__legal li a{color:#ffffff;}
   ul.list__contact{margin-top: 100px;}
   .padding__80{padding: 20px;}
   .date__inversion, .title__acordion{font-size: 1.2rem;}
+  .date__inversion{text-align: center;}
   .box__reporte{min-height: 100%;}
   ul.list__gobierno{margin-left: 0;}
+  h1, .h1{font-size: 32px;}
+  ul.list__years{width: 100%;padding: 0;}
+  #homesec1 #carouselExampleDark .carousel-item{height: 400px;}
+  #secmarcas #conthightxt{padding: 20px;}
+  #secmarcas .contlogos{display: block;margin-top: 30px;margin-bottom: 30px;}
+  #secmarcas .contlogos img{margin:20px auto;}
+  #secnoticias h1{margin-top: 0;margin-bottom: 20px;}
+  #homesec1 #carouselExampleDark #bgcarru2{background-position: right;}
+  .continfosubmenu img,
+  .continfosubmenu p,
+  #menu__top,
+  #menu__top{display: none;}
+  .burger:before, .burger span, .burger:after{width: 30px;height: 3px;}
+  #tabmenucont .social-links{height: 50px;position: absolute;bottom: 0; left: 25%;}
+  #tabmenucont{height: auto;background: #fafafa;
+background: -moz-linear-gradient(top,  #fafafa 0%, #ffffff 100%);
+background: -webkit-linear-gradient(top,  #fafafa 0%,#ffffff 100%);
+background: linear-gradient(to bottom,  #fafafa 0%,#ffffff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#ffffff',GradientType=0 );}
+
+  .tab-content{padding: 80px 5px 0;}
+  #tabmenucont{padding: 80px 15px 0;}
+  #tabmenucont #v-pills-tab a{text-transform: capitalize;margin-bottom: 15px;margin-top: 15px;}
+  #tabmenucont .social-links a{margin-right: 30px;margin-left: 0;}
+  .dropdown-item{padding: 5px 0;}
+  #razon__invertir .padding__30{padding: 15px 0;}
+  .comunicados__eventos h4,
+  .table__fundamentales,  ul.list__gobierno li a{font-size: 1rem;}
+  td, th{padding: 10px 4px;}
+  .table__dividendos th{font-size: .8rem;}
+  .padding__30{padding: 15px;}
+  .bg__dark .text__right{text-align: center !important;}
+  #razon__invertir .font__20{margin-left: 20px;text-align: left;padding-top: 10px;}
+  ul.list__years li{display: inline-block;}
+  ul.list__years li a{font-size: 1rem;font-weight: bold;}
+  #homesec1 #carouselExampleDark .carousel-item{height: 460px;}
+  .padding__base{padding-top: 25px;padding-bottom: 25px;}
+  .logo__svg{padding: 20px;width: 80%;margin: auto;}
+  .mapMexico{top: 5rem;left: 2rem;}
+  .mapEuropa{top: 3.5rem;left: 10rem;}
+  .map3{top: 4rem;left: 80%;}
+  ul.tabs img{width: 30px;height: 30px;}
+  .set img,
+  .box__flotante .img__modal {display: none;}
+  .logo__flotante{margin-top: 0;margin-bottom: 10px;}
+  .box__flotante{position: fixed;top: 0;left: 0;}
+  .title__flotante{margin-bottom: 20px;}
+  .set > a{font-size: 12px;padding: 14px 0;}
+  .set > a i{margin-left: 0;}
+  .accordion-container{margin: 0;}
+  .set > a.active{background: #f0f0f0;border-color: #f0f0f0;color: #44abd3;}
+
 }
+@media (max-width: 380px){
+
+
+}
+
