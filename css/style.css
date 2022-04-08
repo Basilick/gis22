@@ -35,6 +35,13 @@ a {
   font-weight: normal;
 }
 
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-nav{margin-top:10px}.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px}.owl-theme .owl-nav [class*=owl-]:hover{background:#869791;color:#FFF;text-decoration:none}.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
+
 body {
   
   background-color: #FFFFFF;
@@ -1048,6 +1055,7 @@ h5, .h5{font-size: 1.5rem;}
 .padding__base{padding-top: 50px;padding-bottom: 50px;}
 .padding__large{padding-top: 120px;padding-bottom: 120px;}
 .margin__bottom{margin-bottom: 30px;}
+.img__responsive{max-width: 100%;}
 
 .text__large{font-size: 1.375rem;line-height: 1;}
 .font__20{font-size: 1.25rem;}
@@ -1063,7 +1071,8 @@ h5, .h5{font-size: 1.5rem;}
 }
 .box__line{border: 1px solid #fff;}
 
-.img__about{position: absolute;}
+.img__about{position: absolute;z-index: -1;}
+z
 .box__card{z-index: 3;position: relative;}
 .margin__top{margin-top: -250px;}
 .box__map{min-height: 260px;}
@@ -1079,11 +1088,15 @@ h5, .h5{font-size: 1.5rem;}
   margin-bottom: 15px;
   display: block;
   margin-top: 15px;
+  padding: 15px;
+  z-index: 3;
+
 }
 .box__sectores img{max-width: 100%;}
-.box__sectores:hover{opacity: .6;}
+.box__sectores img:hover{opacity: .6;}
 .box__sectores h4{
   font-weight: bold;
+text-align: left;
   color: #5C5C5C;
   text-transform: uppercase;
     border-bottom: 8px solid #24ABD3;
@@ -1350,6 +1363,18 @@ ul.list__years{
     padding: 20px;
     width: 80%;
     margin: auto;
+    height: 420px;
+    overflow: hidden;
+     overflow-y:scroll;
+    cursor: url('https://doc-0o-08-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/2kta284ijggcdtcl4bqntfl7e078ji8m/1400594400000/17389077485591490818/*/0B4zY3wGFGrcfSG9xNVZIbm9RV0E?h=16653014193614665626&e=download'),pointer;
+}
+.scrollable{
+    padding:1em;
+    background:white;
+    position:relative;
+    display:block;
+    width:80%;
+    margin:50px auto;
 }
 ul.list__years .active{color: #4AD6FF;}
 ul.list__years li a{font-size: 1.875rem;color: #969696;padding: 5px 0;display: block;}
@@ -1467,6 +1492,7 @@ ul.list__gobierno li a{
   color: #686868;
   display: block;
 }
+ul.list__gobierno li a:hover{color: #24ABD3}
 #bg__analistas{
   background-image: url('../img/inversionistas/bg-analistas.jpg');
   background-size: cover;
@@ -1666,7 +1692,10 @@ ul.footer__legal li a{color:#ffffff;}
   background: var(--color-primary);
   text-decoration: none;
 }
-.section__flotante{position: relative;}
+.section__flotante{
+  position: relative;
+
+}
 .section__flotante p{color: #626262;}
 .logo__flotante{margin-top: 60px;margin-bottom: 30px;}
 .box__flotante{
@@ -1675,10 +1704,54 @@ ul.footer__legal li a{color:#ffffff;}
   background: #fff;
   height: auto;
   z-index: 300;
+  transition: transform 2s;
+  
+}
+.img__modal{width: 100%;}
+.box__flotante:hover{
+transform: scale(1);
 }
 #close{position: absolute;right: 30px;}
 .title__flotante{width: 230px;border-bottom: 8px solid #24ABD3;font-size: 1.438rem;margin-bottom: 40px;font-weight: bold;}
 #main{margin-top: 60px;}
+
+.gridder{margin:0px;padding:0px;list-style-type:none}.gridder-list{display:inline-block;vertical-align:top}.gridder-show{display:block;float:left;width:100%;position:relative;background:#EEE url("../images/loading-spin.svg") no-repeat center}.gridder-show.loading{background:#EEE url("../images/loading-spin.svg") no-repeat center}.gridder-content{display:none}.gridder-list{width:49.5%}.gridder-list:nth-child(n){margin-bottom:1%;margin-right:1%}.gridder-list:nth-of-type(2n){margin-right:0;margin-bottom:0}.gridder-show{padding:20px;background:#ededed;margin-bottom:1%}.gridder-navigation .gridder-nav.disabled{opacity:.5}.gridder-list{cursor:pointer}.gridder-list:hover{opacity:0.8}.hasSelectedItem .gridder-list{opacity:.5}.hasSelectedItem .gridder-list.selectedItem{opacity:1}@media screen and (min-width: 700px){.gridder-list{width:31.8333333333%}.gridder-list:nth-child(n){margin-bottom:1%;margin-right:1%}.gridder-list:nth-of-type(6n){margin-right:0;margin-bottom:0}}
+.gridder-close{
+  position: absolute;
+    right: 30px;
+    color: #373737;
+}
+
+#carousel__years .owl-nav{position: absolute;width: 100%;top: 0;}
+#carousel__years .owl-prev, #carousel__years .owl-next{
+  position: absolute;
+    font-size: 42px;
+    color: #fff;
+    background: #45aed5;
+    padding: 0 10px !important;
+    display: block;
+    height: 44px;
+    line-height: 10px;
+    border-radius: 0;
+}
+#carousel__years .owl-prev{left: 0;}
+#carousel__years .owl-next{right: 0;}
+
+
+@media screen and (max-width: 830px) {
+
+  .og-expander h3 { font-size: 32px; }
+  .og-expander p { font-size: 13px; }
+  .og-expander a { font-size: 12px; }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .og-fullimg { display: none; }
+  .og-details { float: none; width: 100%; }
+  
+}
 
 
 @media (min-width: 1200px){
@@ -1689,15 +1762,24 @@ ul.footer__legal li a{color:#ffffff;}
 @media (max-width: 908px){
   .box__header__inversionistas{padding-top: 0;}
   .text__title{font-size: 2rem;}
-  ul.list__years li a{font-size: 1rem;padding: 15px 0;}
+  ul.list__years li a{font-size: 1rem;padding: 15px 0;background: #fff;border-radius: 3px;}
   .box__reporte{padding: 10px;}
   ul.list__contact{margin-top: 250px;}
+  .mapa__global{width: 100%;}
+  .margin__top{margin-top: -100px;}
+  .mapMexico{top: 200px;left: 100px;}
+  .mapEuropa{top: 140px;left: 400px;}
+  .map3{top: 200px;left: 640px;}
 }
 @media (max-width: 768px){
   .padding__large{padding-top: 60px;padding-bottom: 60px;}
   .img__about{position: relative;width: 100%;}
   .logo__svg svg, .logo__svg img{width: 100%;}
   .title__acordion, .text__title{font-size: 2rem;}
+  ul.list__reporte li a{font-size: .8rem;}
+  .box__reporte h3,
+  .comunicados__eventos h4,
+  ul.list__gobierno li a,
   .box__sectores h4{font-size: 1rem;}
   .mapa__global {width: 100%;}
   .margin__top{margin-top: -50px;}
@@ -1705,6 +1787,7 @@ ul.footer__legal li a{color:#ffffff;}
   .mapEuropa{top: 8rem;left: 22rem;}
   .map3{top: 12rem;left: 36rem;}
   .box__header__inversionistas{padding-top: 0;}
+  #menu__top{display: none;}
   ul.list__years{padding: 20px 6px;}
   ul.list__years li a{padding: 10px;font-size: 1.2rem;}
   .comunicados__eventos{padding: 1rem 0;}
@@ -1713,6 +1796,11 @@ ul.footer__legal li a{color:#ffffff;}
   #homesec1 #carouselExampleDark .carousel-item p{width: 100%;}
   #contmenu2 .btnchanlan{margin-right: 15px;}
   #contmenu2 .btnchanlan:nth-child(2){padding-left: 10px;margin-right: 10px;}
+  .padding__40{padding: 20px;}
+  ul.list__gobierno{margin: 0}
+  ul.list__reporte{padding-left: 10px;}
+  ul.nav__footer li a{padding: .5rem;}
+  ul.footer__legal{display: block;}
 
 }
 
@@ -1734,7 +1822,7 @@ ul.footer__legal li a{color:#ffffff;}
   .box__reporte{min-height: 100%;}
   ul.list__gobierno{margin-left: 0;}
   h1, .h1{font-size: 32px;}
-  ul.list__years{width: 100%;padding: 0;}
+  ul.list__years{width: 100%;padding: 0;height: auto;}
   #homesec1 #carouselExampleDark .carousel-item{height: 400px;}
   #secmarcas #conthightxt{padding: 20px;}
   #secmarcas .contlogos{display: block;margin-top: 30px;margin-bottom: 30px;}
@@ -1776,7 +1864,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
   .map3{top: 4rem;left: 80%;}
   ul.tabs img{width: 30px;height: 30px;}
   .set img,
-  .box__flotante .img__modal {display: none;}
+  .img__modal {display: none;}
   .logo__flotante{margin-top: 0;margin-bottom: 10px;}
   .box__flotante{position: fixed;top: 0;left: 0;}
   .title__flotante{margin-bottom: 20px;}
@@ -1784,6 +1872,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
   .set > a i{margin-left: 0;}
   .accordion-container{margin: 0;}
   .set > a.active{background: #f0f0f0;border-color: #f0f0f0;color: #44abd3;}
+  .gridder-list{width: 31%;}
+  .box__sectores{padding: 0 5px;}
+  .box__sectores h4{font-size: 12px;font-weight: 400;text-align: center;border-bottom: 2px solid #24ABD3; padding-bottom: 5px;}
+  ul.list__years{background: transparent;height: 44px;margin-bottom: 30px;}
+  #bg__gobierno .box__white{margin-top: 60px;}
+  #bg__analistas img{margin-left: 10px;}
 
 }
 @media (max-width: 380px){

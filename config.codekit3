@@ -814,31 +814,15 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/img\/Captura de Pantalla 2022-03-25 a la(s) 11.19.11.png" : {
-      "ft" : 32768,
-      "iS" : 175420,
-      "oA" : 0,
-      "oAP" : "\/img\/Captura de Pantalla 2022-03-25 a la(s) 11.19.11.png",
+    "\/img\/close.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/close.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/Captura de Pantalla 2022-03-25 a la(s) 11.19.19.png" : {
-      "ft" : 32768,
-      "iS" : 1500890,
-      "oA" : 0,
-      "oAP" : "\/img\/Captura de Pantalla 2022-03-25 a la(s) 11.19.19.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/img\/esr.svg" : {
       "ft" : 2097152,
@@ -1250,6 +1234,39 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/js\/isotope-layout\/isotope.pkgd.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/jquery.gridder-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/jquery.gridder-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/jquery.gridder.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/jquery.gridder-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/jquery.gridder.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/jquery.gridder.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
