@@ -515,6 +515,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/comites.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/comites.html",
+      "oF" : 0
+    },
     "\/contacto.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1057,6 +1065,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/inversionistas\/bursatil.png" : {
+      "ft" : 32768,
+      "iS" : 98468,
+      "oA" : 0,
+      "oAP" : "\/img\/inversionistas\/bursatil.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
